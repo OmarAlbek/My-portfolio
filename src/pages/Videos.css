@@ -1,0 +1,152 @@
+.videos-wrapper {
+  position: relative;
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.videos-wrapper canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw !important;
+  height: 100vh !important;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.videos-page {
+  position: relative;
+  z-index: 1;
+  padding: 5rem 1rem 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.videos-title {
+  font-size: 5.5rem;
+  margin-top: -3rem;
+  font-family: 'DINNextLT', sans-serif;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  color: white;
+  display: flex;
+  gap: 0.15rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.videos-char {
+  display: inline-block;
+  opacity: 0;
+  transform: translateX(40%);
+  animation: fadeInRightChar 0.2s ease-out forwards;
+}
+
+@keyframes fadeInRightChar {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.videos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1300px;
+  width: 100%;
+}
+
+.video-card {
+  background-color: rgba(15, 15, 26, 0.6);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  color: white;
+  text-align: center;
+  animation: fadeInCard 0.5s ease-out forwards;
+  opacity: 0;
+  transform: scale(0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.video-card:hover {
+  transform: scale(0.95);
+}
+
+@keyframes fadeInCard {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.video-title {
+  font-family: 'DINNextLT', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* ✅ Wrapper around iframe */
+.video-embed-wrapper {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.video-card.wide {
+  width: 560px;
+}
+
+.video-card.wide iframe {
+  width: 100%;
+  height: 444px; /* ✅ نفس ارتفاع الريل */
+  border-radius: 12px;
+}
+
+/* ✅ Reel video style */
+.video-card.reel {
+  width: 250px;
+}
+
+.video-card.reel iframe {
+  width: 100%;
+  height: 444px;
+  border-radius: 12px;
+}
+
+/* ✅ Responsive */
+@media (max-width: 768px) {
+  .videos-title {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .video-card.wide,
+  .video-card.reel {
+    width: 70vw;
+  }
+
+  .video-card.wide iframe {
+    width: 100%;
+    height: calc(70vw * 9 / 16);
+  }
+
+  .video-card.reel iframe {
+    width: 100%;
+    height: calc(70vw * 16 / 9);
+  }
+
+}

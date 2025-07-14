@@ -1,0 +1,139 @@
+.contact-page {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 1rem 8rem;
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+.contact-title {
+  font-size: 5.5rem;
+  margin-top: auto;
+  font-family: 'DINNextLT', sans-serif;
+  font-weight: 800;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  color: white;
+  display: flex;
+  gap: 0.15rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-card {
+  background-color: rgba(15, 15, 26, 0.6);
+  margin-top: 2rem;
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 2.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  animation: scaleFadeIn 0.8s ease-out forwards;
+  animation-delay: 0.8s;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.2rem;
+  font-family: 'DINNextLT', sans-serif;
+}
+
+.contact-icon {
+  font-size: 1.4rem;
+  color: #a58eff;
+}
+
+.contact-item a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+  color: #7250ff;
+}
+
+@media (max-width: 768px) {
+  .contact-title {
+    font-size: 4.2rem;
+    margin-right: 2rem;
+    text-align: center;
+  }
+
+  .contact-card {
+    padding: 1.5rem;
+    margin-right: 2rem;
+    width: 80%;
+    max-width: 400px;
+    box-sizing: border-box;
+    align-self: center; /* ✅ يضمن التوسيط داخل flex container */
+  }
+
+  .contact-item {
+    font-size: 1rem;
+    gap: 0.5rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+
+/* ===== Animation: Contact Title ===== */
+@keyframes fadeInSlideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.contact-title {
+  font-size: 5.5rem;
+  margin-top: -35rem;
+  font-family: 'DINNextLT', sans-serif;
+  font-weight: 800;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  color: white;
+  display: flex;
+  gap: 0.15rem;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.contact-char {
+  display: inline-block;
+  opacity: 0;
+  transform: translateX(40%);
+  animation: fadeInRightChar 0.5s ease-out forwards;
+}
+
+@keyframes fadeInRightChar {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

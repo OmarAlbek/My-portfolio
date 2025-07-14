@@ -1,0 +1,178 @@
+/* src/pages/Cv.css */
+.cv-page {
+  min-height: 100vh;
+  padding: 6rem 1rem 8rem;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  color: white;
+}
+
+.cv-container {
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  z-index: 2;
+}
+
+.cv-title {
+  font-size: 5.5rem;
+  margin-top: -2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: white;
+  font-family: 'DINNextLT', sans-serif;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.cv-card {
+  background-color: rgba(15, 15, 26, 0.6);
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  padding: 2rem;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.cv-card h2 {
+  color: #a58eff;
+  margin-top: -0.5rem;
+}
+
+.cv-job {
+  margin-bottom: 1.5rem;
+}
+
+.cv-job h3 {
+  margin: 0.3rem 0;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .cv-title {
+    font-size: 2rem;
+  }
+
+  .cv-card {
+    padding: 1rem;
+  }
+}
+
+.cv-divider {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 1.5rem 0;
+}
+
+.skills-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.skill-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.skill-label {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.bar {
+  width: 100%;
+  height: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+
+@keyframes fillGrow {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--fill);
+  }
+}
+
+.cv-char {
+  display: inline-block;
+  opacity: 0;
+  transform: translateX(40%);
+  animation: fadeInRightChar 0.5s ease-out forwards;
+}
+
+@keyframes fadeInRightChar {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-scale {
+  opacity: 0;
+  transform: scale(0.95);
+  animation: fadeInScale 0.6s ease forwards;
+}
+
+@keyframes fadeInScale {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.fill {
+  height: 100%;
+  background-color: #7250ff;
+  width: var(--fill);
+  transition: width 1s ease;
+}
+
+.cv-download {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.download-button {
+  padding: 0.8rem 1.5rem;
+  background-color: #7250ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.download-button:hover {
+  background-color: #8a6bff;
+}
+
+/* زر التحميل */
+.fade-in-btn {
+  opacity: 0;
+  transform: translateY(20px) scale(0.98);
+  animation: fadeInUp 0.8s ease forwards;
+  animation-delay: 0.3s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}

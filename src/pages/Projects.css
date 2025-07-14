@@ -1,0 +1,180 @@
+.projects-wrapper {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+/* الخلفية تغطي كامل الشاشة */
+.projects-wrapper canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw !important;
+  height: 100vh !important;
+  z-index: 0;
+  pointer-events: none;
+  overflow-x: hidden;
+}
+
+/* محتوى الصفحة فوق الخلفية */
+.projects-page {
+  position: relative;
+  z-index: 1;
+  padding: 5rem 1rem 8rem;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  overflow-x: hidden;
+}
+
+/* عنوان الصفحة */
+.projects-title {
+  font-size: 5.5rem;
+  margin-top: -2rem;
+  font-family: 'DINNextLT', sans-serif;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  color: white;
+  display: flex;
+  gap: 0.15rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* شبكة البطاقات */
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1200px;
+  margin-top: -2rem;
+  overflow-x: hidden;
+}
+
+.project-card {
+  background-color: rgba(15, 15, 26, 0.6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 20px;
+  padding: 1rem;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+
+  /* ✅ انيميشن الدخول */
+  opacity: 0;
+  transform: scale(0.9);
+  animation: fadeInCard 0.5s ease-out forwards;
+}
+
+.scale-fade {
+  opacity: 0;
+  transform: scale(0.9);
+  animation: fadeInCard 0.5s ease-out forwards;
+}
+
+.project-card:hover {
+  transform: translateY(-5px) scale(1.02);
+}
+
+/* صورة المشروع */
+.project-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+/* اسم المشروع */
+.project-name {
+  font-family: 'DINNextLT', sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin: 0.5rem 0 1rem;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  word-break: break-word;
+}
+
+/* الزر */
+.project-button {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #7250ff;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.95rem;
+  transition: background-color 0.3s ease;
+}
+
+.project-button:hover {
+  background-color: #8a6bff;
+}
+
+/* ===== Animation: عنوان My Projects ===== */
+.projects-char {
+  display: inline-block;
+  opacity: 0;
+  transform: translateX(40%);
+  animation: fadeInRightChar 0.5s ease-out forwards;
+}
+
+@keyframes fadeInCard {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* ===== Animation: Card Fade In ===== */
+@keyframes scaleFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* ✅ Responsive */
+@media (max-width: 768px) {
+  .projects-title {
+    font-size: 2.4rem;
+    text-align: center;
+  }
+
+  .project-card {
+    margin-top: 2rem;
+    width: 90%;
+  }
+
+  .project-button {
+    font-size: 0.9rem;
+  }
+}
+
+.silk-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 300vh; /* يضمن تغطية الخلفية للسكرول الطويل */
+  z-index: 0;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.silk-container canvas {
+  flex: 1;
+  width: 100% !important;
+  height: 100vh !important;
+}
