@@ -11,12 +11,6 @@ const videosData = [
     url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     type: "wide"
   },
-  {
-    id: 3,
-    title: "Full Project Showcase",
-    url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    type: "wide"
-  },
 ];
 
 export default videosData;
