@@ -6,7 +6,7 @@ function Contact() {
   return (
     <div className="contact-page">
       <div className="contact-title">
-  {"Contact me".split("").map((char, index) => (
+  {"Find me".split("").map((char, index) => (
     <span
       key={index}
       className="contact-char"
