@@ -2,7 +2,7 @@ const videosData = [
   {
     id: 1,
     title: "Promotional Reel",
-    url: "https://www.youtube.com/embed/3Dv0H__dyRI",
+    url: "https://www.youtube.com/embed/wkRAGwFsuws",
     type: "reel"
   },
   {
