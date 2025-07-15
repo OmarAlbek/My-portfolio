@@ -8,6 +8,7 @@ import Silk from './Components/Silk';
 import Cv from './pages/Cv';
 import Contact from './pages/Contact';
 import Videos from './pages/Videos';
+import ScrollToTop from './Components/ScrollToTop'; // ✅ إضافة
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       </div>
       <div className="page-content-wrapper">
         <Router>
+          <ScrollToTop /> {/* ✅ إدراج الكومبوننت هنا */}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
