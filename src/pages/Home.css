@@ -29,6 +29,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow: hidden; /* ✅ يمنع السكورل */
   align-items: center;
   justify-content: flex-start; /* نبدأ من الأعلى */
   padding-top: 3rem; /* مسافة من الأعلى فقط */
