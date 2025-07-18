@@ -29,18 +29,37 @@ const videosData = [
     url: "https://www.youtube.com/embed/b7B4fgNFjk0",
     type: "reel"
   },
-         {
+{
     id: 6,
     title: "TG Group | Grand Opening Cinematic Promo",
     url: "https://www.youtube.com/embed/kwjWI4J5Phc",
     type: "wide"
   },
-     {
+{
     id: 7,
     title: "SPRAYGROUND | AI SHARKGLYPHS BACKPACK",
     url: "https://www.youtube.com/embed/bcE3KdV16QE",
     type: "reel"
   },
+{
+    id: 8,
+    title: "SPRAYGROUND | TEAR IT UP BACKPACK",
+    url: "https://www.youtube.com/embed/kjo82pSMPpQ",
+    type: "reel"
+  },
+  {
+    id: 9,
+    title: "TG Group | Grand Opening Cinematic Promo",
+    url: "https://www.youtube.com/embed/kwjWI4J5Phc",
+    type: "wide"
+  },
+{
+    id: 8,
+    title: "SPRAYGROUND | TRINITY DIAMOND BACKPACK",
+    url: "https://www.youtube.com/embed/xZolOwfVOSg",
+    type: "reel"
+  },
+
 
 ];
 
