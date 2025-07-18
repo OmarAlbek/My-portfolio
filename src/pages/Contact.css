@@ -28,7 +28,6 @@
 @keyframes fadeInSlideDown {
   0% {
     opacity: 0;
-    transform: translateY(-30px);
   }
   100% {
     opacity: 1;
@@ -39,7 +38,7 @@
 .contact-char {
   display: inline-block;
   opacity: 0;
-  transform: translateX(40%);
+  transform: translateX(50%);
   animation: fadeInRightChar 0.5s ease-out forwards;
 }
 
