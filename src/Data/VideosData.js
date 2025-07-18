@@ -7,7 +7,7 @@ const videosData = [
   },
   {
     id: 2,
-    title: "SPRAYGROUND | MINECRAFT ULTIMATE CREATIVE MODE BACKPACK",
+    title: "SPRAYGROUND | MINECRAFT ULTIMATE BACKPACK",
     url: "https://www.youtube.com/embed/vWhj2_PXhMs",
     type: "reel"
   },
