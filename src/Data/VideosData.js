@@ -7,9 +7,9 @@ const videosData = [
   },
   {
     id: 2,
-    title: "Full Project Showcase",
-    url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    type: "wide"
+    title: "SPRAYGROUND | MINECRAFT ULTIMATE CREATIVE MODE BACKPACK",
+    url: "https://www.youtube.com/embed/vWhj2_PXhMs",
+    type: "reel"
   },
 ];
 
