@@ -23,6 +23,7 @@
   gap: 0.15rem;
   justify-content: center;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .contact-card {
@@ -39,6 +40,7 @@
   opacity: 0;
   animation: scaleFadeIn 0.8s ease-out forwards;
   animation-delay: 0.8s;
+  overflow: hidden;
 }
 
 .contact-item {
@@ -47,21 +49,25 @@
   gap: 1rem;
   font-size: 1.2rem;
   font-family: 'DINNextLT', sans-serif;
+  overflow: hidden;
 }
 
 .contact-icon {
   font-size: 1.4rem;
   color: #a58eff;
+  overflow: hidden;
 }
 
 .contact-item a {
   color: white;
   text-decoration: none;
   transition: color 0.3s ease;
+  overflow: hidden;
 }
 
 .contact-item a:hover {
   color: #7250ff;
+  overflow: hidden;
 }
 
 @media (max-width: 768px) {
@@ -69,6 +75,7 @@
     font-size: 4.2rem;
     margin-right: 2rem;
     text-align: center;
+    overflow: hidden;
   }
 
   .contact-card {
@@ -78,6 +85,7 @@
     max-width: 400px;
     box-sizing: border-box;
     align-self: center; /* ✅ يضمن التوسيط داخل flex container */
+    overflow: hidden;
   }
 
   .contact-item {
@@ -86,6 +94,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
+    overflow: hidden;
   }
 }
 
@@ -112,13 +121,14 @@
   gap: 0.15rem;
   justify-content: center;
   flex-wrap: wrap;
-
+  overflow: hidden;
 }
 .contact-char {
   display: inline-block;
   opacity: 0;
   transform: translateX(40%);
   animation: fadeInRightChar 0.5s ease-out forwards;
+  overflow: hidden;
 }
 
 @keyframes fadeInRightChar {
