@@ -5,6 +5,15 @@ const NAME = "Omar Albek";
 
 function Home() {
   useEffect(() => {
+    // منع السكرول عند الدخول
+    document.body.style.overflow = 'hidden';
+    return () => {
+      // إعادة تفعيل السكرول عند الخروج
+      document.body.style.overflow = 'auto';
+    };
+  }, []);
+
+  useEffect(() => {
     const words = ["مرحباً..", "Hello..", "Bonjour..", "Hola..", "Ciao.."];
     const typedText = document.getElementById("typed-text");
     let wordIndex = 0;
@@ -64,8 +73,6 @@ function Home() {
               </p>
               <p className="fade-in" style={{ animationDelay: "0.4s" }}>
                 Alongside my creative work, I’m currently studying Computer Engineering and specializing in web and front-end design.
-
-
               </p>
 
               {/* التوقيع داخل الكارد */}
