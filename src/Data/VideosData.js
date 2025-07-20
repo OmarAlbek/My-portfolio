@@ -49,18 +49,70 @@ const videosData = [
   },
   {
     id: 9,
-    title: "TG Group | Grand Opening Cinematic Promo",
-    url: "https://www.youtube.com/embed/kwjWI4J5Phc",
+    title: "VIDEO ADVICE | Youtube Video Editing",
+    url: "https://www.youtube.com/embed/mpoSJonG0NI",
     type: "wide"
   },
 {
-    id: 8,
+    id: 10,
     title: "SPRAYGROUND | TRINITY DIAMOND BACKPACK",
     url: "https://www.youtube.com/embed/xZolOwfVOSg",
     type: "reel"
   },
-
-
+  {
+    id: 11,
+    title: "KATAKIT | Food Expo 2025 Booth Promo",
+    url: "https://www.youtube.com/embed/olh9tlD0jbg",
+    type: "wide"
+  },
+  {
+    id: 12,
+    title: "SEDI HISHAM | Food Expo 2025 Booth Promo",
+    url: "https://www.youtube.com/embed/nD0dmr3QaQY",
+    type: "wide"
+  },
+{
+    id: 13,
+    title: "BARNI | Food Expo 2025 Booth Promo",
+    url: "https://www.youtube.com/embed/ZrrJ9dOHvyw",
+    type: "reel"
+  },
+{
+    id: 14,
+    title: "SPUNTINI | Mix Snacks Motion Reel",
+    url: "https://www.youtube.com/embed/xlrxkBeXB3g",
+    type: "reel"
+  },
+{
+    id: 15,
+    title: "SPUNTINI | Mix Flavors Motion Reel",
+    url: "https://www.youtube.com/embed/mpBY5jsCI5M",
+    type: "reel"
+  },
+{
+    id: 16,
+    title: "SPUNTINI | Cheese Snacks Motion Reel",
+    url: "https://www.youtube.com/embed/fAmhJSr7mFo",
+    type: "reel"
+  },
+{
+    id: 17,
+    title: "SPUNTINI | New product Motion Reel",
+    url: "https://www.youtube.com/embed/WodKRvf4X2s",
+    type: "reel"
+  },
+{
+    id: 18,
+    title: "SPUNTINI | New product Motion Reel",
+    url: "https://www.youtube.com/embed/DD5hKrv8GdQ",
+    type: "reel"
+  },
+{
+    id: 19,
+    title: "SPUNTINI | New product Motion Reel",
+    url: "https://www.youtube.com/embed/o6PENGs7sYU",
+    type: "reel"
+  },
 ];
 
 export default videosData;
