@@ -113,6 +113,68 @@ const videosData = [
     url: "https://www.youtube.com/embed/o6PENGs7sYU",
     type: "reel"
   },
+{
+    id: 20,
+    title: "SPUNTINI | Food Expo Public Invitation",
+    url: "https://www.youtube.com/embed/6sYrU3ZwT6g",
+    type: "reel"
+  },
+{
+    id: 21,
+    title: "SPUNTINI | Product Video Editing",
+    url: "https://www.youtube.com/embed/omCCNMCQU9E",
+    type: "reel"
+  },
+{
+    id: 22,
+    title: "DELUXE | VFX Product Video Editing",
+    url: "https://www.youtube.com/embed/hSgcER6oCw8",
+    type: "reel"
+  },
+{
+    id: 23,
+    title: "DELUXE | Products Motion Reel",
+    url: "https://www.youtube.com/embed/T9lc3JM9asY",
+    type: "reel"
+  },
+{
+    id: 24,
+    title: "DELUXE | Products Motion Reel",
+    url: "https://www.youtube.com/embed/8DiB2QDnWKk",
+    type: "reel"
+  },
+{
+    id: 25,
+    title: "MAKKI | Product Motion Reel",
+    url: "https://www.youtube.com/embed/c9BWwPPfZj8",
+    type: "reel"
+  },
+{
+    id: 26,
+    title: "MAKKI | Festival Booth Promo",
+    url: "https://www.youtube.com/embed/rRCiwJc2EsU",
+    type: "reel"
+  },
+{
+    id: 27,
+    title: "KOITA | Product Motion Reel",
+    url: "https://www.youtube.com/embed/sHrbXwDCoN4",
+    type: "reel"
+  },
+{
+    id: 28,
+    title: "PREMIUME FOODS X JARRITOS | Product Motion Reel",
+    url: "https://www.youtube.com/embed/B4wmzKQgAwQ",
+    type: "reel"
+  },
+{
+    id: 29,
+    title: "GROOM ME | Service Motion Reel",
+    url: "https://www.youtube.com/embed/15bBs6z6DfE",
+    type: "reel"
+  },
 ];
 
 export default videosData;
+
+
