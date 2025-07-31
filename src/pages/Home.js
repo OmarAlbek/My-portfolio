@@ -14,7 +14,7 @@ function Home() {
   }, []);
 
   useEffect(() => {
-    const words = ["مرحباً..", "Hello..", "Bonjour..", "Hola..", "Ciao.."];
+    const words = ["مرحباً..", "Hello..", "Bonjour..", "Hola..", "Ciao..","Cześć.."];
     const typedText = document.getElementById("typed-text");
     let wordIndex = 0;
     let charIndex = 0;
