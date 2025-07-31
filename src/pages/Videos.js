@@ -7,7 +7,7 @@ function Videos() {
     <div className="videos-wrapper">
       <div className="videos-page">
         <h2 className="videos-title">
-          {"Motion Graphics & Vedio Editing".split('').map((char, i) => (
+          {"Motion Graphics & Video Editing".split('').map((char, i) => (
             <span key={i} className="videos-char" style={{ animationDelay: `${i * 0.08}s` }}>
               {char === ' ' ? '\u00A0' : char}
             </span>
