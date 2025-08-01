@@ -90,14 +90,17 @@
   -webkit-backdrop-filter: blur(25px);
   border: 1px solid rgba(255, 255, 255, 0.08);
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
-  padding: 2rem;
   width: 100%;
   max-width: 800px;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: white;
   animation: fadeAndScale 0.8s ease-out forwards;
+   transform: scale(0.85);              /* نسبة التصغير (85%) */
+  transform-origin: top center;       /* يثبت النقطة اللي يتم الدوران/التحجيم منها */
+  margin-top: calc(-6rem * 0.85);
 }
 
 @keyframes fadeAndScale {
@@ -186,7 +189,7 @@
   }
 
   .center-card {
-    top: 45vh;
+    top: 4vh;
     width: 70%;
     height: auto;
     max-height: 90vh;
