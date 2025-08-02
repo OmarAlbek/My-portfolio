@@ -158,19 +158,11 @@ and banners for social media.</li>
       <div className="bar"><div className="fill" style={{ width: "100%" }}></div></div>
     </div>
     <div className="skill-bar">
-      <span className="skill-label">Google Workspace</span>
-      <div className="bar"><div className="fill" style={{ width: "100%" }}></div></div>
-    </div>
-    <div className="skill-bar">
-      <span className="skill-label">Microsoft Office</span>
-      <div className="bar"><div className="fill" style={{ width: "100%" }}></div></div>
-    </div>
-    <div className="skill-bar">
-      <span className="skill-label">Web Design (React)</span>
+      <span className="skill-label">React</span>
       <div className="bar"><div className="fill" style={{ width: "50%" }}></div></div>
     </div>
     <div className="skill-bar">
-      <span className="skill-label">Flutter UI</span>
+      <span className="skill-label">Flutter</span>
       <div className="bar"><div className="fill" style={{ width: "50%" }}></div></div>
     </div>
   </div>
