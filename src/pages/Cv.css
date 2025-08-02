@@ -190,3 +190,11 @@
     transform: translateY(0) scale(1);
   }
 }
+.skill-label {
+  font-weight: 800;
+  font-size: 1.3rem;
+  color: #ffffff;
+  font-family: 'DINNextLT', sans-serif;
+  margin-bottom: 0.3rem;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}

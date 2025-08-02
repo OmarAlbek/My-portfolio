@@ -139,34 +139,35 @@ and banners for social media.</li>
   <div className="skills-grid">
     <div className="skill-bar">
       <span className="skill-label">Photoshop</span>
-      <div className="bar"><div className="fill" style={{ width: "100%" }}></div></div>
+      <p>I leverage Photoshop to bring creative visions to life through sophisticated photomanipulation and refined image editing, producing professional-grade visual designs.</p>
     </div>
     <div className="skill-bar">
       <span className="skill-label">Illustrator</span>
-      <div className="bar"><div className="fill" style={{ width: "80%" }}></div></div>
+      <p>I leverage Adobe Illustrator to design and manipulate precise, scalable vector shapes—ranging from logos and branding elements to raw motion-graphics assets—ensuring clean, professional results.</p>
     </div>
     <div className="skill-bar">
       <span className="skill-label">After Effects</span>
-      <div className="bar"><div className="fill" style={{ width: "90%" }}></div></div>
+      <p>I leverage Adobe After Effects to craft professional motion graphics and VFX, from dynamic title animations and seamless compositing to particle simulations and cinematic visual effects.</p>
     </div>
     <div className="skill-bar">
       <span className="skill-label">Premiere Pro</span>
-      <div className="bar"><div className="fill" style={{ width: "90%" }}></div></div>
+      <p>I leverage Adobe Premiere Pro to edit and assemble high-quality video content, applying advanced trimming, color grading, audio mixing, and seamless transitions to deliver polished, broadcast-ready productions.</p>
     </div>
     <div className="skill-bar">
       <span className="skill-label">Canva</span>
-      <div className="bar"><div className="fill" style={{ width: "100%" }}></div></div>
+      <p>I leverage Canva when simplicity is key, using its intuitive drag-and-drop tools to swiftly create social media graphics, presentations, flyers, infographics, and basic animations.</p>
     </div>
     <div className="skill-bar">
       <span className="skill-label">React</span>
-      <div className="bar"><div className="fill" style={{ width: "50%" }}></div></div>
+      <p>I leverage React’s component-based architecture and hooks to build scalable, interactive web applications—powering everything from my university projects to the very website you’re browsing now.</p>
     </div>
     <div className="skill-bar">
       <span className="skill-label">Flutter</span>
-      <div className="bar"><div className="fill" style={{ width: "50%" }}></div></div>
+      <p>I leverage Flutter’s unified UI toolkit to develop cross-platform mobile applications for my academic projects, enabling rapid prototyping and seamless native-like performance on both iOS and Android.</p>
     </div>
   </div>
 </div>
+
         {/* Languages */}
 <div className="cv-card fade-scale">
   <h2>Languages</h2>
