@@ -144,6 +144,12 @@ const videosData = [
     type: "reel"
   },
 {
+    id: 31,
+    title: "DELUXE | VFX Product Video Editing",
+    url: "https://www.youtube.com/embed/jYlNJQ7Ho6s",
+    type: "reel"
+  },
+{
     id: 25,
     title: "MAKKI | Product Motion Reel",
     url: "https://www.youtube.com/embed/c9BWwPPfZj8",
@@ -171,6 +177,60 @@ const videosData = [
     id: 29,
     title: "GROOM ME | Service Motion Reel",
     url: "https://www.youtube.com/embed/15bBs6z6DfE",
+    type: "reel"
+  },
+{
+    id: 30,
+    title: "SPEED OF LIGHT | Service Motion Reel",
+    url: "https://www.youtube.com/embed/tmcuo2j794M",
+    type: "reel"
+  },
+{
+    id: 32,
+    title: "Pistachio World | Product Motion Reel",
+    url: "https://www.youtube.com/embed/XYtoIzPG1tI",
+    type: "reel"
+  },
+{
+    id: 33,
+    title: "Peanuts World | Product Motion Reel",
+    url: "https://www.youtube.com/embed/B68-HNJ5GWI",
+    type: "reel"
+  },
+{
+    id: 34,
+    title: "GO SMART | Product Motion Reel",
+    url: "https://www.youtube.com/embed/RQnVIMgAmb0",
+    type: "reel"
+  },
+{
+    id: 35,
+    title: "GO SMART | Script Video Editing",
+    url: "https://www.youtube.com/embed/DegUub67IDQ",
+    type: "reel"
+  },
+{
+    id: 36,
+    title: "GO SMART | Script Video Editing",
+    url: "https://www.youtube.com/embed/yPY_mB2-e-s",
+    type: "reel"
+  },
+{
+    id: 37,
+    title: "GO SMART | Script Video Editing",
+    url: "https://www.youtube.com/embed/LzHJS3KPQEE",
+    type: "reel"
+  },
+{
+    id: 38,
+    title: "GO SMART | Script Video Editing",
+    url: "https://www.youtube.com/embed/KoO0KpgyZK8",
+    type: "reel"
+  },
+{
+    id: 38,
+    title: "GO SMART | Script Video Editing",
+    url: "https://www.youtube.com/embed/hgY8p-S3DQ",
     type: "reel"
   },
 ];
