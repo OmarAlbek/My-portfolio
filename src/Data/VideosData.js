@@ -79,18 +79,19 @@ const videosData = [
 //     url: "https://www.youtube.com/embed/xZolOwfVOSg",
 //     type: "reel"
 //   },
-      {
-    id: 3,
-    title: "SPRAYGROUND KW| CRAZEE DAZEES BACKPACK",
-    url: "https://www.youtube.com/embed/7T7qboPpWkc",
+{
+    id: 31,
+    title: "DELUXE SY| VFX Product Video Editing",
+    url: "https://www.youtube.com/embed/jYlNJQ7Ho6s",
     type: "reel"
   },
-  {
-    id: 8,
-    title: "SPRAYGROUND KW| TEAR IT UP BACKPACK",
-    url: "https://www.youtube.com/embed/kjo82pSMPpQ",
+{
+    id: 21,
+    title: "SPUNTINI SY| Product Video Editing",
+    url: "https://www.youtube.com/embed/omCCNMCQU9E",
     type: "reel"
   },
+
   {
     id: 13,
     title: "BARNI SY| Food Expo 2025 Booth Promo",
@@ -158,10 +159,10 @@ const videosData = [
 //     url: "https://www.youtube.com/embed/6sYrU3ZwT6g",
 //     type: "reel"
 //   },
-{
-    id: 21,
-    title: "SPUNTINI SY| Product Video Editing",
-    url: "https://www.youtube.com/embed/omCCNMCQU9E",
+  {
+    id: 8,
+    title: "SPRAYGROUND KW| TEAR IT UP BACKPACK",
+    url: "https://www.youtube.com/embed/kjo82pSMPpQ",
     type: "reel"
   },
     {
@@ -171,19 +172,19 @@ const videosData = [
     type: "reel"
   },
 
-
+      {
+    id: 3,
+    title: "SPRAYGROUND KW| CRAZEE DAZEES BACKPACK",
+    url: "https://www.youtube.com/embed/7T7qboPpWkc",
+    type: "reel"
+  },
 {
     id: 24,
     title: "DELUXE SY| Products Motion Reel",
     url: "https://www.youtube.com/embed/8DiB2QDnWKk",
     type: "reel"
   },
-{
-    id: 31,
-    title: "DELUXE SY| VFX Product Video Editing",
-    url: "https://www.youtube.com/embed/jYlNJQ7Ho6s",
-    type: "reel"
-  },
+
 {
     id: 25,
     title: "MAKKI SY| Product Motion Reel",
