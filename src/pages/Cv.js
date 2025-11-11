@@ -29,7 +29,7 @@ function Cv() {
         <div className="cv-card fade-scale">
           <h2>Profile</h2>
           <p>
-            I'm a graphic designer with four years of experience in design, video editing, and motion graphics. Currently studying Information Technology Engineering, I combine creativity with technical skills to deliver impactful and innovative visual content.
+            I'm a graphic designer with five years of experience in design, video editing, and motion graphics. Currently studying Information Technology Engineering, I combine creativity with technical skills to deliver impactful and innovative visual content.
           </p>
         </div>
 
