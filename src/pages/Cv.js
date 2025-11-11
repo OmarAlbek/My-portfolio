@@ -93,7 +93,7 @@ and videos to effectively showcase and promote their products.
 
           <div className="cv-job fade-scale">
             <h3>Al-Marfoo Virtual School</h3>
-            <p><strong>Graphic designer, Video maker (2024 – Present)</strong></p>
+            <p><strong>Graphic designer, Video maker (2024 – 2025)</strong></p>
             <p>
               Al-Marfoo School is a Syrian virtual school that offers the Syrian curriculum to
 students outside Syria through an online platform. I am responsible for
