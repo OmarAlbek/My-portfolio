@@ -33,7 +33,7 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Almarfoo School SY",
+    title: "SKY 4Q SY",
     image: "https://res.cloudinary.com/doacbhqcl/image/upload/v1769861709/S4_qrd8in.jpg",
     url: "https://www.behance.net/gallery/243266339/SKY-4Q-Social-Media"
   },
