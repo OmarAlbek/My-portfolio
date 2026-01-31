@@ -31,6 +31,12 @@ const projectsData = [
     image: "https://res.cloudinary.com/doacbhqcl/image/upload/v1769798912/MS_nkcc9s.jpg",
     url: "https://www.behance.net/gallery/240778669/AlMarfoo-Virtual-School-Social-Media"
   },
+  {
+    id: 6,
+    title: "Almarfoo School SY",
+    image: "https://res.cloudinary.com/doacbhqcl/image/upload/v1769861709/S4_qrd8in.jpg",
+    url: "https://www.behance.net/gallery/243266339/SKY-4Q-Social-Media"
+  },
 ];
 
 export default projectsData;
