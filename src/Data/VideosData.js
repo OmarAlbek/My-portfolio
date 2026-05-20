@@ -11,6 +11,12 @@ const videosData = [
   //   url: "https://www.youtube.com/embed/vWhj2_PXhMs",
   //   type: "reel"
   // },
+      {
+    id: 356,
+    title: "KAYFA EG| Motion Graphics Reel",
+    url: "https://www.youtube.com/embed/sN-W7xej1RQ",
+    type: "reel"
+  },
     {
     id: 39,
     title: "SKY AGENCY SY| Informative Reel",
