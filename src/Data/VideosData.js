@@ -11,6 +11,12 @@ const videosData = [
   //   url: "https://www.youtube.com/embed/vWhj2_PXhMs",
   //   type: "reel"
   // },
+        {
+    id: 3526,
+    title: "NGen SY| Motion Graphics Reel",
+    url: "https://www.youtube.com/embed/ouGYQ63YXy8",
+    type: "reel"
+  },
       {
     id: 356,
     title: "KAYFA EG| Motion Graphics Reel",
