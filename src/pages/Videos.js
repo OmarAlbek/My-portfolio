@@ -1,6 +1,7 @@
 import React from 'react';
 import './Videos.css';
 import videosData from '../Data/VideosData';
+import VideoCard from '../Components/VideoCard';
 
 function Videos() {
   return (
@@ -16,22 +17,7 @@ function Videos() {
 
         <div className="videos-grid">
           {videosData.map((video, i) => (
-            <div
-              key={video.id}
-              className={`video-card ${video.type === 'reel' ? 'reel' : 'wide'}`}
-              style={{ animationDelay: `${i * 0.02}s` }}
-            >
-              <h3 className="video-title">{video.title}</h3>
-              <div className="video-embed-wrapper">
-                <iframe
-                  src={video.url}
-                  title={video.title}
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-              </div>
-            </div>
+            <VideoCard key={video.id} video={video} index={i} />
           ))}
         </div>
       </div>
